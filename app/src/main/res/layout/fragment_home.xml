@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3dfcf"
+    tools:context=".UpdateStockActivity2">
+
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Home Fragment"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:layout_centerInParent="true"/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/health3"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/covidTestBtn"
+            android:layout_width="227dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/cust_btn"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/online_covid_test"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/updateStockBtn"
+            android:layout_width="227dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cust_btn"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/update_stock"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/checkBtn"
+            android:layout_width="227dp"
+            android:layout_height="84dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cust_btn"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/check_for_availability"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/covidInfoBtn"
+            android:layout_width="227dp"
+            android:layout_height="60dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cust_btn"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/covid_info"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/entertainmentBtn"
+            android:layout_width="227dp"
+            android:layout_height="60dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cust_btn"
+            android:fontFamily="sans-serif-black"
+            android:text="IBM ASSISTANT"
+            android:textColor="@color/cardview_light_background"
+
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/games"
+            android:layout_width="227dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cust_btn"
+            android:fontFamily="sans-serif-black"
+            android:text="ENTERTAINTMENT"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20dp" />
+        />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.04"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.15"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.26"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.4"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.51"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.62"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.73"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.97"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
