@@ -56,7 +56,7 @@ public class EntertainmentActivity extends AppCompatActivity {
         WebSettings webSettings = smartReplyView.getSettings();
 
         webSettings.setJavaScriptEnabled(true);
-        smartReplyView.loadUrl("https://integrations.eu-gb.assistant.watson.cloud.ibm.com/web/public/ed3126c8-47f1-4247-a3ec-99b56545be69");
+        smartReplyView.loadUrl("https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=50744b5b-effa-440b-86b5-ebbdc2a84edd&serviceInstanceID=86e9fd09-f1e2-4795-91a0-bbc0842f5dcd");
 
         smartReplyView.setWebViewClient(new WebViewClient());
     }
