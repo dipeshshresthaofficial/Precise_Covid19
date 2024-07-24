@@ -1,4 +1,4 @@
-# COVID19_Hackathon_android_app
+# Android Application for Hackathon "IBM Call for Code"
 
 Precise Covid19 is a mobile application that helps users perform virtual COVID-19 risk tests, interact with Chatbot, and also check for the availability of protective gear like masks, sanitizers, gloves, etc. from the nearest pharmacy in MapView. For the prediction, it uses a deep learning model developed using TensorFlow. To make this model work on Android devices a light version was used by making use of TFLiteConverter. . It also makes use of the Google Firebase database and Google text-to-speech API.
 
